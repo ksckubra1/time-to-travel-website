@@ -1,8 +1,9 @@
 import React from 'react'
 import { AiFillGift } from 'react-icons/ai';
+import bgHome from "../assets/images/bgImages/bg-home.jpg"
 const Home = () => {
     return (
-        <div className='relative h-[100dvh]  md:h-screen bg-center text-white w-full px-10 md:px-24 bg-cover py-10 flex bg-[url(https://www.pixelstalk.net/wp-content/uploads/image12/Minimalist-forest-lake-reflection-with-tall-trees-and-a-tranquil-glass-like-surface-set-in-a-peaceful-woodland.jpg)] flex-col'>
+        <div className='relative h-[100dvh]  md:h-screen bg-center text-white w-full px-10 md:px-24 bg-cover py-10 flex flex-col' style={{ backgroundImage: `url(${bgHome})` }}>
 
 
             <div className="absolute inset-0 bg-style"></div>
