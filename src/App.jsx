@@ -1,5 +1,5 @@
 import Home from './pages/Home'
-import PlacesToVisit from './components/placesToVisit'
+import PlacesToVisit from './components/PlacesToVisit'
 import React from 'react'
 import Communication from './components/Communication'
 
