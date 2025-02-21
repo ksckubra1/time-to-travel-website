@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+    .perspective {
+        perspective: 1000px;
+    }
+
+    .transform-style {
+        transform-style: preserve-3d;
+    }
+
+    .backface-hidden {
+        backface-visibility: hidden;
+    }
+
+    .rotate-y-180 {
+        transform: rotateY(180deg);
+    }
+}
+
+.text-shadow {
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.bg-style {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
+}
